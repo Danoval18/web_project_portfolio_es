@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto Sprint 4</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <h1 class="header__name">Daniel <br />Chavez</h1>
+
+        <p class="header__description">Diseñador y Desarrollador</p>
+        <p class="header__text">
+          Desarrollador web junior en formación, con experiencia práctica
+          creando interfaces limpias y responsivas con HTML y CSS. He trabajado
+          en proyectos formativos siguiendo procesos reales de desarrollo,
+          utilizando Git, GitHub y Figma. Actualmente continúo fortaleciendo mis
+          conocimientos de JavaScript y disfruto aprender nuevas tecnologías,
+          mantener un código claro y resolver problemas de forma estructurada.
+        </p>
+        <nav class="header__links">
+          <a class="header__link" href="./files/cv-danielweb.pdf" download
+            >Descargar CV</a
+          >
+
+          <a
+            class="header__link"
+            href="https://github.com/Danoval18"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Enlace a GitHub
+          </a>
+
+          <a class="header__link" href="mailto:daniel_chavez28@outlook.com">
+            Hablemos
+          </a>
+        </nav>
+      </div>
+
+      <img
+        class="header__image"
+        src="./images/IMG_6786.jpeg"
+        alt="Foto de Daniel Chavez"
+      />
+    </header>
+
+    <main>
+      <!-- Sección de habilidades ---------------------------------------------------->
+      <section class="skills">
+        <h2 class="skills__title">Habilidades y herramientas</h2>
+
+        <div class="skills__list">
+          <img src="./images/html.svg" alt="HTML5" />
+          <img src="./images/css.svg" alt="CSS3" />
+          <img src="./images/javascript.svg" alt="JavaScript" />
+          <img src="./images/git.svg" alt="Git" />
+          <img src="./images/github.svg" alt="GitHub" />
+          <img src="./images/chatgpt.svg" alt="ChatGPT" />
+        </div>
+      </section>
+
+      <section class="projects">
+        <h2 class="projects__title">Proyectos destacados</h2>
+
+        <div class="projects__grid">
+          <!-- Aquí irán las tarjetas ------------------------------------------------------------------->
+          <article class="project">
+            <div class="project__image-container">
+              <img
+                class="project__image"
+                src="./images/proyecto-1.png"
+                alt="Vista previa del proyecto"
+              />
+
+              <div class="project__overlay"></div>
+              <div class="project__technologies">
+                <img src="./images/html.svg" alt="HTML5" />
+                <img src="./images/css.svg" alt="CSS3" />
+              </div>
+            </div>
+
+            <div class="project__info">
+              <h3 class="project__title">Página web de una cafetería</h3>
+
+              <p class="project__description">
+                Desarrollo de una landing page responsiva para una cafetería
+                siguiendo un brief de diseño. Incluye estructura semántica,
+                maquetación con Flexbox, creación de diferentes secciones y
+                formularios. Implementé desde cero la estructura y el diseño de
+                la página, organicé el proyecto siguiendo buenas prácticas y
+                gestioné sus versiones utilizando Git y GitHub.
+              </p>
+
+              <div class="project__actions">
+                <a
+                  class="project__action"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    class="project__action-icon"
+                    src="./images/external-link.svg"
+                    alt=""
+                  />
+                  Demo en vivo
+                </a>
+
+                <a
+                  class="project__action"
+                  href="https://github.com/Danoval18/web_project_coffeeshop_es"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    class="project__action-icon"
+                    src="./images/github-link.svg"
+                    alt=""
+                  />
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project__image-container">
+              <img
+                class="project__image"
+                src="./images/proyecto-2.png"
+                alt="Vista previa del proyecto"
+              />
+
+              <div class="project__overlay"></div>
+              <div class="project__technologies">
+                <img src="./images/javascript.svg" alt="JavaScript" />
+                <img src="./images/react.svg" alt="React" />
+              </div>
+            </div>
+
+            <div class="project__info">
+              <h3 class="project__title">Mi Proyecto</h3>
+              <p class="project__description">Descripción del proyecto.</p>
+
+              <div class="project__actions">
+                <a
+                  class="project__action"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    class="project__action-icon"
+                    src="./images/external-link.svg"
+                    alt=""
+                  />
+
+                  Demo en vivo
+                </a>
+                <a
+                  class="project__action"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    class="project__action-icon"
+                    src="./images/github-link.svg"
+                    alt=""
+                  />
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__contact">
+        <h2 class="footer__title">Contacto</h2>
+
+        <a class="footer__email" href="mailto:daniel_chavez28@outlook.com">
+          daniel_chavez28@outlook.com
+        </a>
+
+        <div class="footer__social">
+          <a
+            class="footer__social-link"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./images/linkedin.svg" alt="LinkedIn" />
+          </a>
+
+          <a
+            class="footer__social-link"
+            href="https://www.facebook.com/JDannMusic/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./images/facebook.svg" alt="Facebook" />
+          </a>
+
+          <a
+            class="footer__social-link"
+            href="https://www.instagram.com/pitt.zahut/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./images/instagram.svg" alt="Instagram" />
+          </a>
+
+          <a
+            class="footer__social-link"
+            href="https://x.com/jdanielban"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./images/x.svg" alt="X" />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
