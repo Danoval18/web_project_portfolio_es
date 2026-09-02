@@ -28,4 +28,4 @@ El sitio funciona como un portafolio personal responsive en el que presento mi p
 
 Enlace al proyecto:
 
-Pendiente de publicación.
+https://danoval18.github.io/web_project_portfolio_es/
