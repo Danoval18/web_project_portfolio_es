@@ -148,6 +148,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 .skills__list img {
@@ -156,8 +159,8 @@ body {
   object-fit: contain;
   flex-shrink: 0;
 }
-.skills__list img:nth-child(1),
-.skills__list img:nth-child(2) {
+.skills__item:nth-child(1) img,
+.skills__item:nth-child(2) img {
   height: 57px;
 }
 
@@ -223,6 +226,7 @@ body {
   line-height: normal;
   color: #ffffff;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .project__action:first-child {
@@ -245,7 +249,7 @@ body {
 }
 
 .project__info {
-  height: 340px;
+  min-height: 340px;
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -385,6 +389,9 @@ body {
   .projects {
     margin-top: 80px;
   }
+  .project__info {
+    min-height: 190px;
+  }
   .projects__title {
     margin-bottom: 30px;
   }
@@ -394,13 +401,6 @@ body {
     gap: 20px;
   }
 
-  .project:first-child .project__info {
-    height: 340px;
-  }
-
-  .project:nth-child(2) .project__info {
-    height: 190px;
-  }
   .footer {
     margin-top: 80px;
   }
@@ -469,8 +469,8 @@ body {
     height: 30px;
   }
 
-  .skills__list img:nth-child(1),
-  .skills__list img:nth-child(2) {
+  .skills__item:nth-child(1) img,
+  .skills__item:nth-child(2) img {
     height: 34.2px;
   }
   .projects {
@@ -487,6 +487,7 @@ body {
     gap: 10px;
   }
   .project__info {
+    min-height: 141px;
     padding: 20px;
   }
 
@@ -498,16 +499,8 @@ body {
     font-size: 16px;
   }
   .project__actions {
-    margin-top: 20px;
-    padding-top: 0;
-  }
-
-  .project:first-child .project__info {
-    height: auto;
-  }
-
-  .project:nth-child(2) .project__info {
-    height: auto;
+    margin-top: auto;
+    padding-top: 20px;
   }
   .footer {
     margin-top: 60px;
